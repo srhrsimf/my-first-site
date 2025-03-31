@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+.header {
+    background-image: url(../image/bg_basic.png);
+    height: 3400px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.header-line {
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    margin-right: 0px;
+}
+.btn_up { 
+    position: fixed;
+    z-index: 9999; /* Максимальное значение z-индекса */
+    bottom: 0; /* Опционально: разместить div в верхней части окна браузера */
+    right: 0;
+}/*кнопка-ссылка на самый верх*/
+
+/*контейнер*/
+.container {
+    margin: 0px 70px;  
+    height: auto;
+    padding-top: 10px;
+}
+
+/*тексты*/
+.nav-item {
+    color:lightblue ;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.text {
+    font-size: 45px;
+    color: lightblue;
+    text-decoration: none;  
+    text-align: center;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_subtitle {
+    font-size: 45px;
+    color: purple;
+    text-decoration: none;  
+    text-align: center;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2 {
+    margin: auto;
+    color:purple ;
+    font-size: 20px;
+    font-family:cursive;
+    text-align:center;
+    align-items: center;
+}
+
+/*разное*/
+.info{
+    padding: 20px;
+    display: flex;
+}
+.info2{
+    padding: 20px;
+    display:flexbox;
+}
+
+
